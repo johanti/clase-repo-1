@@ -1,0 +1,29 @@
+#tabContenedor ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+   
+}
+.botones{
+    background: cadetblue;
+    color: black;
+    padding: 7px;
+    margin: 10px;
+}
+#tabcontenido div{
+    display: inline-block;
+    position: absolute;
+    width: 60%;
+    background: burlywood;
+
+
+}
+
+#tabContenido div:not( :nth-child(1)){
+    display: none;
+}
+
+#tabContenido div:target{
+    display: inline-block;
+}

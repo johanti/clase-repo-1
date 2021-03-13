@@ -1,0 +1,27 @@
+#encabezado {
+    background: rgb(17, 177, 177);
+    height: 8vh;
+}
+
+#encabezado ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#encabezado ul li{
+    background: red;
+    color: white ;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid wheat;
+    
+}
+
+
+#encabezado ul li:hover{
+    color: black;
+    border-radius: 40%;
+    
+
+}
